@@ -2,7 +2,7 @@
 Este proyecto (Actividad 2), se basa en Sistema de control y actuación en función del clima.
 
 ## Simulación en Wokwi
-En el siguiente enlace se puede ver el código y probar el circuito: https://wokwi.com/projects/432558575676350465
+En el siguiente enlace se puede ver el código y probar el circuito: [https://wokwi.com/projects/432558575676350465](https://wokwi.com/projects/432573706929158145)
 
 ## Componentes Utilizados
 - Arduino Uno
