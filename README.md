@@ -8,10 +8,8 @@ En el siguiente enlace se puede ver el código y probar el circuito: https://wok
 - Arduino Uno
 - Sensor de temperatura y humedad: `DHT22`
 - Sensor de luz: `LDR`
-- Sensor de calidad del aire: `Potenciómetro`
-- Sensor de viento: `Joystick` (para velocidad y dirección)
-- Actuador: `LED rojo` (indica mala calidad del aire)
-- Actuadores a añadir: `LEDs o mensajes` que simulan ventilador y humidificador
+- Actuador: `8 LEDs`
+- Actuadores a añadir: `Servo motores` que simulan calefacción y refrigeración
 - Pantalla `LCD 1602 I2C`
 
 ## Funcionalidad
@@ -20,11 +18,7 @@ En el siguiente enlace se puede ver el código y probar el circuito: https://wok
 - Visualización en dos pantallas secuenciales en el LCD.
   
 ### Actividad 2 - Control y Actuación (nuevas funcionalidades)
-- Activación de actuadores simulados:
-  - 💨 Ventilador si temperatura > 25 °C
-  - 💧 Humidificador si humedad < 80%
+- Algoritmos de control:
+  - Temperatura: On-Off con zona muerta
+  - Iluminación: On-Off puro (8 niveles)
 - Mensajes informativos en el LCD que indican acciones tomadas.
-- Control automático basado en algoritmos simples.
-- El sistema busca mantenerse cerca de los parámetros:
-  - Temperatura: 25 °C
-  - Humedad: 80%
